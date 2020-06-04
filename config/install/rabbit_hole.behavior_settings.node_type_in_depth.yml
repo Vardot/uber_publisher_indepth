@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.in_depth
+id: node_type_in_depth
+action: display_page
+allow_override: 0
+redirect: ''
+redirect_code: 301

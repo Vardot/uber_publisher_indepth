@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: in_depth
+label: In-depth
+type: 'canonical_entities:node'
+pattern: 'in-depth/[node:title]'
+selection_criteria:
+  acea70a2-fd0d-4fe3-b05f-a5af7a8f0a6f:
+    id: node_type
+    bundles:
+      in_depth: in_depth
+    negate: false
+    context_mapping:
+      node: node
+    uuid: acea70a2-fd0d-4fe3-b05f-a5af7a8f0a6f
+selection_logic: and
+weight: -5
+relationships: {  }
