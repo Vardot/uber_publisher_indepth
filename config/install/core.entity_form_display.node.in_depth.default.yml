@@ -12,7 +12,7 @@ dependencies:
     - field.field.node.in_depth.field_yoast_seo
     - field.field.node.in_depth.layout_builder__layout
     - node.type.in_depth
-    - workflows.workflow.varbase_basic_workflow
+    - workflows.workflow.varbase_editorial_workflow
   module:
     - advanced_text_formatter
     - autocomplete_deluxe
